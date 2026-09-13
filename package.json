@@ -1,0 +1,33 @@
+{
+  "name": "jagomotion-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Auto order Jagomotion",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "qr": "node index.js --qr",
+    "pairing": "node index.js --pairing-code"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "alight-motion",
+    "jagomotion",
+    "nevapedia",
+    "qris"
+  ],
+  "author": "Jagomotion",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "awesome-phonenumber": "^7.3.0",
+    "axios": "^1.7.9",
+    "baileys": "npm:@whiskeysockets/baileys@^6.7.9",
+    "chalk": "^5.4.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
